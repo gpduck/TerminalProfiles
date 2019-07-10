@@ -8,7 +8,7 @@ $Profiles = @(
         Test = { $true }
         IconUrl = "https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/Powershell_64.png"
         Profile = @{
-            Name = "powershell"
+            Name = "Windows PowerShell"
             CommandLine = "powershell.exe -noexit -encodedcommand JABIAG8AcwB0AC4AVQBJAC4AUgBhAHcAVQBJAC4AVwBpAG4AZABvAHcAVABpAHQAbABlACAAPQAgACIAUABvAHcAZQByAFMAaABlAGwAbAAiAA=="
             Background = ""
             AcrylicOpacity = 0.9
@@ -30,7 +30,7 @@ $Profiles = @(
         IconUrl = "https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/Square44x44Logo.png"
         BackgroundUrl = "https://live.staticflickr.com/109/304067807_7aea893c99_o_d.jpg"
         Profile = @{
-            Name = "pwsh"
+            Name = "PowerShell Core"
             CommandLine = "C:\Program Files\PowerShell\6\pwsh.exe -noexit -encodedcommand JABIAG8AcwB0AC4AVQBJAC4AUgBhAHcAVQBJAC4AVwBpAG4AZABvAHcAVABpAHQAbABlACAAPQAgACIAcAB3AHMAaAAiAA=="
             Background = ""
             AcrylicOpacity = 0.9
@@ -55,7 +55,7 @@ $Profiles = @(
         IconUrl = "https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/Square44x44Logo-Preview.png"
         BackgroundUrl = "https://live.staticflickr.com/115/304040363_f0ce0f7633_o_d.jpg"
         Profile = @{
-            Name = "pwsh7-preview"
+            Name = "PowerShell Core Preview"
             CommandLine = "C:\Program Files\PowerShell\7-preview\pwsh.exe -noexit -encodedcommand JABIAG8AcwB0AC4AVQBJAC4AUgBhAHcAVQBJAC4AVwBpAG4AZABvAHcAVABpAHQAbABlACAAPQAgACIAcAB3AHMAaAAiAA=="
             Background = ""
             AcrylicOpacity = 0.9
