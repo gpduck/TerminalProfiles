@@ -162,10 +162,10 @@ function InstallItermProfile {
         try {
             $TempFile = [IO.Path]::GetTempFileName()
             Invoke-RestMethod -Uri "https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/${Name}.itermcolors" -OutFile $TempFile
-            Import-Iterm2ColorScheme -Path $SchemeFile -Name $Desired.ColorScheme
+            Import-Iterm2ColorScheme -Path $TempFile -Name $Desired.ColorScheme
         } finally {
-            if(Test-Path $SchemeFile) {
-                Remove-Item $SchemeFile
+            if(Test-Path $TempFile) {
+                Remove-Item $TempFile
             }
         }
     }
